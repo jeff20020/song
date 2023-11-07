@@ -80,13 +80,12 @@ a:hover{
 img{
 	width: 50%;                        /* 圖片縮小為版面 50% */
 	border-radius: 10px 0 10px 0;      /* 圖片圓角：上：10px；右：0px；下：10px；左：0px */
-	box-shadow: 1px 1px 5px #a69325;   /* 圖片陰影：X(上下位移)：1px；Y(左右位移)：1px； 模糊度 5px；色彩 #258CA6 */
+	box-shadow: 1px 1px 5px #258CA6;   /* 圖片陰影：X(上下位移)：1px；Y(左右位移)：1px； 模糊度 5px；色彩 #258CA6 */
 }
 #tabs{
-	width: 50%;       /* tabs 寬度設為50% */
+	width: 50%;       /* tabs 寬度縮小為版面  */
 	margin:0px auto;  /* tabs 置中對齊 */
 }
-
 .ui-widget-content {
     border: 1px solid #aaaaaa;         /* tabs 邊框設為寬1px灰色的實線 ，可自行修改 */
     background: rgba(172,217,224,0.6); /* tabs 底色 設定為淺藍色，不透明度60%*/
