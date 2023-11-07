@@ -8,6 +8,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例100%-->
         <meta name="description" content="FORBIDDEN RAIN歌詞"> <!-- 提供搜尋引擎關於網頁頁面內的重要資訊-->
         <link href="style.css" rel="stylesheet">       <!-- 連結到style.css設定視覺規劃-->
+		<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script> <!-- 連結到fontawesome圖示資料庫-->
+		  <!--jQuery 語法-->
+		  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+		  <link href="style.css" rel="stylesheet">       <!-- 連結到style.css設定視覺規劃，將原本上方的style.css，移到jquery-ui.css下方，css設定，以讀取最後的設定為主。-->
+		  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		  <script>
+		  $(function() {
+			$( "main" ).hide();
+			$( "main" ).fadeIn(2000);
+		  });
+		  </script>
+		   <script>
+			$( function() {
+			  $( "#tabs" ).tabs();
+			} );
+			</script>
     </head>
 <!-- head標頭資訊設定結束
 ================================================== -->   
@@ -47,6 +64,26 @@
 	<p></p>
 	Fate 絕不被允許 再進一步 Ah，<br>
 	<p></p>
+	<img src="img/A.jpg">
+	<p></p>	
+	<!-- tabs設定開始--> 	
+<div id="tabs">
+	<ul>
+	  <li><a href="#tabs-1"><i class="fas fa-bullhorn"></i> 危險的自己</a></li>      <!-- tabs標題1，加入Font Awesome--> 
+	  <li><a href="#tabs-2"><i class="fas fa-heart"></i> 深愛著妳</a></li>            <!-- tabs標題2，加入Font Awesome--> 
+	  <li><a href="#tabs-3"><i class="fas fa-eye-dropper"></i> 無法相愛</a></li> <!-- tabs標題3，加入Font Awesome--> 
+	</ul>
+	<div id="tabs-1">
+	  <p>我的心中潛藏了一隻野獸，那是我無法抵抗的傢伙，一旦他甦醒過來，我可能會傷害妳。</p>
+	</div>
+	<div id="tabs-2">
+	  <p>但是我的心卻被妳深深的吸引，一想到妳那頭野獸的力量好像就會被壓制，如此一來我也能與妳相戀嗎?</p>
+	</div>
+	<div id="tabs-3">
+	  <p>這終究是不可能的吧，盡管是那頭野獸的作為，但是殺人就是事實，請忘了我吧，忘了這個無法與妳相愛的男人。</p>
+	</div>
+  </div>
+  <!-- tabs設定結束--> 
 	陰鬱之雨中不知名的情感 無人發覺<br>
 	禁忌的It'my rain 感覺著你 Leaving you<br>
 	<p></p>
@@ -60,6 +97,9 @@
 	幸運之雨中不知名的情感 將一切沖刷殆盡<br>
 	禁忌的It'my pain 抱緊了你 Leaving you<br>
 	...Forbidden rain<br>
+	<p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/OlLEOBu3niI?si=ov9S1GgeEDZgrw2D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	 </p>
 	<a href="https://www.youtube.com/watch?v=OlLEOBu3niI" target="_blank">看MV</a>   <!-- a 超連結設定，需搭配href，target="_blank開啟新視窗--> 
 	</main>
 	<!-- main內文設定結束-->
